@@ -43,3 +43,13 @@ void insertionsort()
             arr[j + 1] = arr[j]; // geser elemen ke kanan
             j--;
         }
+
+        arr[j + 1] = temp; 
+
+        cout << "\nStep" << i << ": ";
+        for (int k = 0; k < n; k++)
+        {
+            cout << arr[k] << " ";
+        }
+    }
+}
